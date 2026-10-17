@@ -1,0 +1,14 @@
+interface:
+  display_name: Instagram Saved Posts
+  short_description: Export saved Instagram posts through Context.dev
+  default_prompt: Use $instagram-saved to export my saved Instagram posts into a searchable
+    local collection.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
